@@ -2,11 +2,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto:ital,wght@1,500&display=swap');
 
 :root{
-    --primary-color:#0c4a6e;
-    --sec-color:brown;
+    --primary-color:#6d28d9;
+    --sec-color:#991b1b;
+    --off-white:#f3f4f6;
 }
 body{
     font-family: 'Roboto', sans-serif;
+    margin:0px;
 }
 hr{
     margin:2rem 0rem;
@@ -60,3 +62,44 @@ hr{
     font-weight:bold;
 }
 
+.hero{
+    padding:2rem;
+}
+.hero .hero-img{
+    max-width:300px;
+    display:block;
+    margin:auto;
+}
+.hero .hero-heading{
+    text-align:center;
+    padding:1rem;
+    color:var(--sec-color);
+}
+.hero .heading-in{
+    color:var(--primary-color);
+}
+
+/* section class */
+.section{
+    padding:2rem;
+}
+.section  h1{
+    text-align:center;
+
+}
+.ow{
+    background-color:var(--off-white);
+}
+.footer{
+    background-color:var(--primary-color);
+    padding:2rem 1rem;
+    text-align:center;
+    color:white;
+}
+.footer .link{
+    color:white;
+}
+.footer ul{
+    padding-inline-start:0px;
+
+}
