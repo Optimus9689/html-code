@@ -25,13 +25,14 @@ hr{
 .link{
     text-decoration:none;
     padding:0.5rem 1rem;
-    color:white;
+    color:darkblue;
+    
 }
 .primary-link{
     background-color: var(--primary-color);
     border-radius:0.5rem;
     color:white;
-    
+    text-align:center;
 }
 
 .seclink{
